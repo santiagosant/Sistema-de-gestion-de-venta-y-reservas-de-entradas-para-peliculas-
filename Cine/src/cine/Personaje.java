@@ -45,6 +45,4 @@ public class Personaje {
         this.rol = rol;
     }
     
-    
-    
 }
