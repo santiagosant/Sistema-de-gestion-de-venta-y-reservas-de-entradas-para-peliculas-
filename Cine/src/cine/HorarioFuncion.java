@@ -75,7 +75,12 @@ public class HorarioFuncion {
         this.horaUltimaFuncion = horaUltimaFuncion;
     }
     
-    //funciones
+    //Metodo
+    
+        public String mostrarHorarioFuncion(){
+            String mensaje = "Primera funcion "+ this.getHoraPrimeraFuncion()+" Ultima funcion "+ this.getHoraUltimaFuncion();
+            return mensaje;
+        }
     
     
     
